@@ -1,0 +1,51 @@
+KEBIJAKAN PRIVASI (PRIVACY POLICY)
+
+Terakhir Diperbarui: 2 Desember 2024
+
+CBT SMP Negeri 45 Kota Bekasi ("Aplikasi") dikembangkan oleh SolusiFix untuk SMPN 45 Kota Bekasi sebagai alat bantu pelaksanaan Ujian Berbasis Komputer (CBT) yang aman. Halaman ini digunakan untuk menginformasikan pengunjung mengenai kebijakan kami terkait pengumpulan, penggunaan, dan pengungkapan Informasi Pribadi jika ada yang memutuskan untuk menggunakan Layanan kami.
+
+Jika Anda memilih untuk menggunakan Layanan kami, maka Anda menyetujui pengumpulan dan penggunaan informasi sehubungan dengan kebijakan ini.
+
+1. PENGUMPULAN DAN PENGGUNAAN INFORMASI
+
+Aplikasi ini TIDAK mengumpulkan atau menyimpan data pribadi siswa (seperti nama, alamat, atau nomor telepon) di server kami sendiri. Semua data ujian diproses langsung antara perangkat siswa dan server ujian sekolah.
+
+Namun, untuk memberikan pengalaman yang lebih baik dan fungsi keamanan, Aplikasi memerlukan izin akses tertentu:
+
+A. Akses Kamera
+Aplikasi memerlukan izin akses kamera semata-mata untuk fitur QR Code Scanner. Fitur ini digunakan untuk memindai kode QR yang berisi URL ujian agar siswa dapat masuk dengan cepat. Data gambar dari kamera diproses secara lokal di perangkat dan tidak dikirim ke server mana pun.
+
+B. Status Perangkat & Keamanan
+Untuk memastikan integritas ujian, Aplikasi memantau status perangkat, termasuk namun tidak terbatas pada:
+- Status Screen Pinning (Kiosk Mode).
+- Deteksi Root atau Jailbreak.
+- Deteksi Emulator.
+- Deteksi aplikasi yang berjalan di latar belakang (untuk mencegah kecurangan).
+
+Informasi ini hanya digunakan secara lokal untuk memvalidasi apakah perangkat aman digunakan untuk ujian.
+
+2. LOG DATA
+
+Kami ingin memberi tahu Anda bahwa setiap kali Anda menggunakan Layanan kami, jika terjadi kesalahan dalam aplikasi, kami mungkin mengumpulkan data dan informasi (melalui produk pihak ketiga) di ponsel Anda yang disebut Log Data. Data Log ini dapat mencakup informasi seperti alamat Protokol Internet ("IP") perangkat Anda, nama perangkat, versi sistem operasi, konfigurasi aplikasi saat menggunakan Layanan kami, waktu dan tanggal penggunaan Anda atas Layanan, dan statistik lainnya.
+
+3. COOKIES DAN DATA LOKAL
+
+Aplikasi ini secara otomatis menghapus cache, cookies, dan data sesi peramban (browser) setiap kali aplikasi ditutup atau sesi ujian berakhir. Hal ini dilakukan untuk menjaga keamanan akun siswa dan mencegah penyalahgunaan data sesi.
+
+4. KEAMANAN
+
+Kami menghargai kepercayaan Anda dalam memberikan Informasi Pribadi Anda kepada kami (jika ada), oleh karena itu kami berupaya untuk menggunakan cara yang dapat diterima secara komersial untuk melindunginya. Namun perlu diingat bahwa tidak ada metode transmisi melalui internet, atau metode penyimpanan elektronik yang 100% aman dan andal, dan kami tidak dapat menjamin keamanan mutlaknya.
+
+5. TAUTAN KE SITUS LAIN
+
+Layanan ini (platform ujian) dapat berisi tautan ke situs lain (server ujian sekolah). Jika Anda mengklik tautan pihak ketiga, Anda akan diarahkan ke situs tersebut. Perhatikan bahwa situs eksternal ini tidak dioperasikan oleh kami. Oleh karena itu, kami sangat menyarankan Anda untuk meninjau Kebijakan Privasi situs web ini. Kami tidak memiliki kendali atas dan tidak bertanggung jawab atas konten, kebijakan privasi, atau praktik situs atau layanan pihak ketiga mana pun.
+
+6. PERUBAHAN PADA KEBIJAKAN PRIVASI INI
+
+Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Oleh karena itu, Anda disarankan untuk meninjau halaman ini secara berkala untuk mengetahui adanya perubahan. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting Kebijakan Privasi baru di halaman ini.
+
+7. HUBUNGI KAMI
+
+Jika Anda memiliki pertanyaan atau saran tentang Kebijakan Privasi kami, jangan ragu untuk menghubungi kami di:
+Email: support@solusifix.id
+Website: www.solusifix.id
