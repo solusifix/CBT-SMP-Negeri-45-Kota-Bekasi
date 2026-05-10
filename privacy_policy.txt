@@ -1,51 +1,216 @@
-KEBIJAKAN PRIVASI (PRIVACY POLICY)
+Kebijakan Privasi — Exam Browser SMPN 45 Kota Bekasi
 
-Terakhir Diperbarui: 2 Desember 2024
+**Terakhir diperbarui:** 10 Mei 2026
+**Berlaku efektif:** 10 Mei 2026
+**Versi aplikasi:** 2.1.0 (version code 17)
+**Pengembang:** Rakomapp - Solusifix.id
+**Nama aplikasi:** Exam Browser for SMPN 45 Kota Bekasi
+**Package ID:** com.appujian.solusifix
 
-CBT SMP Negeri 45 Kota Bekasi ("Aplikasi") dikembangkan oleh SolusiFix untuk SMPN 45 Kota Bekasi sebagai alat bantu pelaksanaan Ujian Berbasis Komputer (CBT) yang aman. Halaman ini digunakan untuk menginformasikan pengunjung mengenai kebijakan kami terkait pengumpulan, penggunaan, dan pengungkapan Informasi Pribadi jika ada yang memutuskan untuk menggunakan Layanan kami.
+---
 
-Jika Anda memilih untuk menggunakan Layanan kami, maka Anda menyetujui pengumpulan dan penggunaan informasi sehubungan dengan kebijakan ini.
+## 1. Pendahuluan
 
-1. PENGUMPULAN DAN PENGGUNAAN INFORMASI
+Aplikasi **Exam Browser for SMPN 45 Kota Bekasi** ("Aplikasi") adalah alat bantu ujian berbasis komputer (CBT) yang dikembangkan oleh SMP Negeri 45 Kota Bekasi untuk kepentingan internal sekolah. Kebijakan privasi ini menjelaskan informasi apa yang diakses, disimpan, atau dikirim oleh Aplikasi, serta bagaimana informasi tersebut digunakan.
 
-Aplikasi ini TIDAK mengumpulkan atau menyimpan data pribadi siswa (seperti nama, alamat, atau nomor telepon) di server kami sendiri. Semua data ujian diproses langsung antara perangkat siswa dan server ujian sekolah.
+Dengan memasang dan menggunakan Aplikasi, Anda menyetujui kebijakan privasi ini.
 
-Namun, untuk memberikan pengalaman yang lebih baik dan fungsi keamanan, Aplikasi memerlukan izin akses tertentu:
+---
 
-A. Akses Kamera
-Aplikasi memerlukan izin akses kamera semata-mata untuk fitur QR Code Scanner. Fitur ini digunakan untuk memindai kode QR yang berisi URL ujian agar siswa dapat masuk dengan cepat. Data gambar dari kamera diproses secara lokal di perangkat dan tidak dikirim ke server mana pun.
+## 2. Ringkasan Singkat
 
-B. Status Perangkat & Keamanan
-Untuk memastikan integritas ujian, Aplikasi memantau status perangkat, termasuk namun tidak terbatas pada:
-- Status Screen Pinning (Kiosk Mode).
-- Deteksi Root atau Jailbreak.
-- Deteksi Emulator.
-- Deteksi aplikasi yang berjalan di latar belakang (untuk mencegah kecurangan).
+- Aplikasi **tidak mengumpulkan data pribadi** dari perangkat Anda.
+- Aplikasi **tidak mengirim data** ke server pihak ketiga manapun, kecuali ke server ujian sekolah (`ujian.smpnegeri45kotabekasi.sch.id`).
+- Aplikasi **tidak menggunakan iklan, analytics pihak ketiga, atau pelacak** apapun.
+- Semua data aktivitas (waktu mulai ujian, pelanggaran) **disimpan hanya di perangkat Anda** dan tidak dikirim ke luar perangkat.
+- Izin kamera **hanya digunakan untuk memindai QR Code** alamat ujian, tidak merekam atau menyimpan gambar.
 
-Informasi ini hanya digunakan secara lokal untuk memvalidasi apakah perangkat aman digunakan untuk ujian.
+---
 
-2. LOG DATA
+## 3. Informasi yang Diakses dan Disimpan
 
-Kami ingin memberi tahu Anda bahwa setiap kali Anda menggunakan Layanan kami, jika terjadi kesalahan dalam aplikasi, kami mungkin mengumpulkan data dan informasi (melalui produk pihak ketiga) di ponsel Anda yang disebut Log Data. Data Log ini dapat mencakup informasi seperti alamat Protokol Internet ("IP") perangkat Anda, nama perangkat, versi sistem operasi, konfigurasi aplikasi saat menggunakan Layanan kami, waktu dan tanggal penggunaan Anda atas Layanan, dan statistik lainnya.
+### 3.1 Disimpan di Perangkat (Lokal)
 
-3. COOKIES DAN DATA LOKAL
+Aplikasi menyimpan data berikut di penyimpanan internal perangkat Anda menggunakan database lokal (Room):
 
-Aplikasi ini secara otomatis menghapus cache, cookies, dan data sesi peramban (browser) setiap kali aplikasi ditutup atau sesi ujian berakhir. Hal ini dilakukan untuk menjaga keamanan akun siswa dan mencegah penyalahgunaan data sesi.
+| Data | Tujuan | Lokasi |
+|------|--------|--------|
+| ID sesi ujian (acak) | Audit log internal | Database lokal perangkat |
+| Waktu mulai & selesai ujian | Audit log internal | Database lokal perangkat |
+| Jumlah & waktu pelanggaran | Audit log internal | Database lokal perangkat |
+| URL halaman ujian | Untuk memuat ujian | Memori perangkat (sementara) |
+| Versi update yang di-dismiss | Mencegah dialog berulang | SharedPreferences perangkat |
 
-4. KEAMANAN
+Data ini **tidak pernah dikirim ke luar perangkat** dan otomatis terhapus saat Aplikasi di-uninstall.
 
-Kami menghargai kepercayaan Anda dalam memberikan Informasi Pribadi Anda kepada kami (jika ada), oleh karena itu kami berupaya untuk menggunakan cara yang dapat diterima secara komersial untuk melindunginya. Namun perlu diingat bahwa tidak ada metode transmisi melalui internet, atau metode penyimpanan elektronik yang 100% aman dan andal, dan kami tidak dapat menjamin keamanan mutlaknya.
+### 3.2 Diakses Sementara (Tidak Disimpan)
 
-5. TAUTAN KE SITUS LAIN
+Aplikasi membaca informasi berikut untuk fungsi keamanan ujian, tetapi **tidak menyimpan atau mengirimnya**:
 
-Layanan ini (platform ujian) dapat berisi tautan ke situs lain (server ujian sekolah). Jika Anda mengklik tautan pihak ketiga, Anda akan diarahkan ke situs tersebut. Perhatikan bahwa situs eksternal ini tidak dioperasikan oleh kami. Oleh karena itu, kami sangat menyarankan Anda untuk meninjau Kebijakan Privasi situs web ini. Kami tidak memiliki kendali atas dan tidak bertanggung jawab atas konten, kebijakan privasi, atau praktik situs atau layanan pihak ketiga mana pun.
+- **Status root / USB debugging** — untuk mencegah kecurangan melalui perangkat yang dimodifikasi.
+- **Status emulator** — untuk mencegah penggunaan simulator Android.
+- **Layanan aksesibilitas aktif** — untuk mendeteksi aplikasi bantu kecurangan.
+- **Overlay aktif** (aplikasi lain yang menampilkan tampilan di atas Aplikasi) — untuk mendeteksi alat kecurangan terapung.
+- **Tingkat baterai & status jaringan** — hanya untuk ditampilkan pada bar atas layar.
+- **Kecepatan jaringan** — hanya untuk ditampilkan pada bar atas layar.
 
-6. PERUBAHAN PADA KEBIJAKAN PRIVASI INI
+Informasi ini hanya dibaca saat Aplikasi berjalan dan tidak dicatat ke database atau dikirim ke manapun.
 
-Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Oleh karena itu, Anda disarankan untuk meninjau halaman ini secara berkala untuk mengetahui adanya perubahan. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting Kebijakan Privasi baru di halaman ini.
+### 3.3 Dikirim ke Server Sekolah
 
-7. HUBUNGI KAMI
+Saat Anda membuka halaman ujian, Aplikasi mengirim permintaan HTTPS ke server resmi sekolah (`ujian.smpnegeri45kotabekasi.sch.id`) dengan informasi standar HTTP sebagai berikut:
 
-Jika Anda memiliki pertanyaan atau saran tentang Kebijakan Privasi kami, jangan ragu untuk menghubungi kami di:
-Email: support@solusifix.id
-Website: www.solusifix.id
+- **User-Agent**: mengandung tanda pengenal `ExamBrowserSMPN45/2.1.0` agar server dapat memverifikasi bahwa akses berasal dari Aplikasi resmi.
+- **Alamat IP**: diberikan otomatis oleh protokol jaringan (sama seperti browser biasa).
+
+Data akademik seperti login, jawaban ujian, dan nilai **dikelola oleh server sekolah**, bukan oleh Aplikasi. Aplikasi hanya berfungsi sebagai browser aman yang menampilkan halaman tersebut.
+
+---
+
+## 4. Izin yang Diminta
+
+Aplikasi meminta izin sistem berikut sesuai kebutuhan fungsinya:
+
+| Izin | Alasan | Wajib? |
+|------|--------|--------|
+| `INTERNET` | Memuat halaman ujian dari server sekolah | Wajib |
+| `CAMERA` | Memindai QR Code alamat ujian | Opsional (bisa ditolak, URL dimasukkan manual) |
+| `VIBRATE` | Memberi umpan balik fisik saat pelanggaran | Opsional |
+| `ACCESS_NETWORK_STATE` | Menampilkan status WiFi/Data/Offline | Wajib |
+| `CHANGE_NETWORK_STATE` | Memantau perubahan koneksi | Wajib |
+| `FOREGROUND_SERVICE` | Memainkan suara peringatan saat pelanggaran | Wajib |
+| `FOREGROUND_SERVICE_MEDIA_PLAYBACK` | Subtipe izin untuk alarm pelanggaran | Wajib |
+
+**Izin yang TIDAK diminta:**
+
+- Lokasi (GPS)
+- Kontak, SMS, atau log panggilan
+- Penyimpanan eksternal (file, foto pribadi)
+- Mikrofon
+- Data akun atau profil
+- Bluetooth
+- Sensor biometrik
+
+---
+
+## 5. Data yang TIDAK Dikumpulkan
+
+Aplikasi secara khusus **tidak**:
+
+- Merekam layar atau mengambil tangkapan layar ujian
+- Merekam audio atau video melalui kamera
+- Melacak lokasi Anda
+- Membaca daftar kontak atau pesan
+- Mengakses file pribadi di penyimpanan perangkat
+- Membaca aplikasi lain yang terpasang
+- Menggunakan layanan analitik pihak ketiga (Google Analytics, Firebase Analytics, Facebook SDK, dll)
+- Menyisipkan iklan dalam bentuk apapun
+
+---
+
+## 6. Penggunaan Google Play Services
+
+Aplikasi menggunakan komponen berikut dari Google:
+
+- **Google ML Kit (Barcode Scanning)** — untuk memindai QR Code. Pemrosesan dilakukan **sepenuhnya di perangkat** (on-device), tidak ada data QR yang dikirim ke server Google.
+- **Google Play In-App Updates** — untuk mengecek ketersediaan pembaruan di Play Store. Hanya mengirim versi aplikasi saat ini ke server Google Play (tidak mengirim data pengguna).
+- **Google Play Services (Tasks & Common)** — pustaka pendukung untuk kedua fitur di atas.
+
+Penggunaan layanan ini tunduk pada [Kebijakan Privasi Google](https://policies.google.com/privacy).
+
+---
+
+## 7. Keamanan Data
+
+- Semua komunikasi ke server sekolah menggunakan **HTTPS terenkripsi** (TLS).
+- Password pengawas disimpan sebagai **hash SHA-256**, bukan teks biasa.
+- Aplikasi menggunakan `FLAG_SECURE` untuk mencegah tangkapan layar dan perekaman layar selama ujian.
+- Aplikasi di-obfuskasi dengan R8/ProGuard pada rilis untuk mempersulit analisis kode.
+- Data lokal (Room database) tersimpan di area pribadi aplikasi yang tidak dapat diakses oleh aplikasi lain.
+
+---
+
+## 8. Anak di Bawah Umur
+
+Aplikasi ini **ditujukan untuk siswa SMP** (usia ± 12–15 tahun) di SMP Negeri 45 Kota Bekasi. Penggunaan Aplikasi dilakukan dalam pengawasan guru dan orang tua/wali.
+
+- Aplikasi **tidak mengumpulkan** data pribadi siswa secara langsung.
+- Data akademik siswa (nilai, identitas, dll) dikelola oleh sistem ujian sekolah, bukan oleh Aplikasi.
+- Aplikasi tidak menampilkan iklan dan tidak terhubung dengan jaringan sosial.
+- Instalasi Aplikasi dilakukan oleh sekolah/siswa dengan persetujuan orang tua/wali.
+
+Bagi orang tua/wali yang ingin meninjau aktivitas Aplikasi di perangkat anak, dapat mengakses log pelanggaran secara lokal melalui pengawas ujian di sekolah.
+
+---
+
+## 9. Penyimpanan dan Penghapusan Data
+
+- **Data lokal** (audit log sesi ujian) disimpan selama Aplikasi terpasang. Anda dapat menghapusnya kapan saja dengan cara:
+  - Menghapus data aplikasi melalui *Pengaturan → Aplikasi → Exam Browser SMPN 45 → Penyimpanan → Hapus Data*, atau
+  - Meng-uninstall Aplikasi.
+
+- **Data yang dikirim ke server sekolah** (log akses HTTP, jawaban ujian) dikelola oleh sekolah sesuai kebijakan internal sekolah. Untuk permintaan akses, perbaikan, atau penghapusan data akademik, silakan hubungi pihak sekolah langsung.
+
+---
+
+## 10. Pembagian Data dengan Pihak Ketiga
+
+Aplikasi **tidak membagikan data apapun** dengan pihak ketiga, termasuk:
+
+- Mitra iklan
+- Data broker
+- Perusahaan analitik
+- Jaringan sosial
+
+Satu-satunya pihak eksternal yang menerima komunikasi dari Aplikasi adalah:
+
+1. **Server ujian sekolah** (`ujian.smpnegeri45kotabekasi.sch.id`) — untuk memuat halaman ujian.
+2. **Google Play** — untuk pengecekan pembaruan aplikasi (standar semua aplikasi Android).
+
+---
+
+## 11. Perubahan Kebijakan Privasi
+
+Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu, misalnya jika ada perubahan fungsi Aplikasi atau persyaratan hukum baru. Perubahan material akan diumumkan melalui:
+
+- Halaman ini (dengan tanggal pembaruan yang baru), dan
+- Pemberitahuan di dalam Aplikasi pada saat pembaruan versi.
+
+Anda disarankan untuk memeriksa halaman ini secara berkala.
+
+---
+
+## 12. Hak Anda
+
+Sebagai pengguna, Anda memiliki hak untuk:
+
+- **Menolak izin** yang bersifat opsional (seperti Kamera) — Aplikasi tetap dapat digunakan dengan input URL manual.
+- **Menghapus data lokal** kapan saja melalui Pengaturan Android.
+- **Meng-uninstall** Aplikasi kapan saja — semua data lokal akan hilang.
+- **Menolak pembaruan opsional** — Aplikasi tetap berfungsi normal.
+- **Menghubungi sekolah** untuk permintaan terkait data akademik yang tersimpan di server.
+
+---
+
+## 13. Informasi Kontak
+
+Jika Anda memiliki pertanyaan, keluhan, atau permintaan terkait kebijakan privasi ini, silakan hubungi:
+
+**SMP Negeri 45 Kota Bekasi**
+Alamat: Jl. Sentosa Raya, RT.001/RW.016 Jatimakmur, Pondok Gede Kota Bekasi, Jawa Barat
+Telepon: 02184908373
+Email: smpnegeri45bekasi@gmail.com
+Website: https://smpnegeri45kotabekasi.sch.id
+
+**Penanggung jawab teknis (Tim IT Sekolah):**
+Email: rakomapp@gmail.com
+
+---
+
+## 14. Persetujuan
+
+Dengan mengunduh, memasang, atau menggunakan Aplikasi **Exam Browser for SMPN 45 Kota Bekasi**, Anda menyatakan telah membaca, memahami, dan menyetujui kebijakan privasi ini.
+
+---
+
+*Dokumen ini tersedia dalam Bahasa Indonesia sebagai versi resmi. Versi Bahasa Inggris (jika ada) hanya untuk referensi.*
