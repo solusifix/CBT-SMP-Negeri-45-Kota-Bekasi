@@ -1,9 +1,9 @@
-Kebijakan Privasi — Exam Browser SMPN 45 Kota Bekasi
+# Kebijakan Privasi — Exam Browser SMPN 45 Kota Bekasi
 
 **Terakhir diperbarui:** 10 Mei 2026
 **Berlaku efektif:** 10 Mei 2026
 **Versi aplikasi:** 2.1.0 (version code 17)
-**Pengembang:** Rakomapp - Solusifix.id
+**Pengembang:** SMP Negeri 45 Kota Bekasi
 **Nama aplikasi:** Exam Browser for SMPN 45 Kota Bekasi
 **Package ID:** com.appujian.solusifix
 
@@ -33,15 +33,27 @@ Dengan memasang dan menggunakan Aplikasi, Anda menyetujui kebijakan privasi ini.
 
 Aplikasi menyimpan data berikut di penyimpanan internal perangkat Anda menggunakan database lokal (Room):
 
-| Data | Tujuan | Lokasi |
-|------|--------|--------|
-| ID sesi ujian (acak) | Audit log internal | Database lokal perangkat |
-| Waktu mulai & selesai ujian | Audit log internal | Database lokal perangkat |
-| Jumlah & waktu pelanggaran | Audit log internal | Database lokal perangkat |
-| URL halaman ujian | Untuk memuat ujian | Memori perangkat (sementara) |
-| Versi update yang di-dismiss | Mencegah dialog berulang | SharedPreferences perangkat |
+ID sesi ujian (acak)
+Tujuan: audit log internal
+Lokasi: database lokal perangkat
 
-Data ini **tidak pernah dikirim ke luar perangkat** dan otomatis terhapus saat Aplikasi di-uninstall.
+Waktu mulai dan selesai ujian
+Tujuan: audit log internal
+Lokasi: database lokal perangkat
+
+Jumlah dan waktu pelanggaran
+Tujuan: audit log internal
+Lokasi: database lokal perangkat
+
+URL halaman ujian
+Tujuan: untuk memuat ujian
+Lokasi: memori perangkat (sementara)
+
+Versi update yang di-dismiss
+Tujuan: mencegah dialog berulang
+Lokasi: SharedPreferences perangkat
+
+Data ini tidak pernah dikirim ke luar perangkat dan otomatis terhapus saat Aplikasi di-uninstall.
 
 ### 3.2 Diakses Sementara (Tidak Disimpan)
 
@@ -71,15 +83,26 @@ Data akademik seperti login, jawaban ujian, dan nilai **dikelola oleh server sek
 
 Aplikasi meminta izin sistem berikut sesuai kebutuhan fungsinya:
 
-| Izin | Alasan | Wajib? |
-|------|--------|--------|
-| `INTERNET` | Memuat halaman ujian dari server sekolah | Wajib |
-| `CAMERA` | Memindai QR Code alamat ujian | Opsional (bisa ditolak, URL dimasukkan manual) |
-| `VIBRATE` | Memberi umpan balik fisik saat pelanggaran | Opsional |
-| `ACCESS_NETWORK_STATE` | Menampilkan status WiFi/Data/Offline | Wajib |
-| `CHANGE_NETWORK_STATE` | Memantau perubahan koneksi | Wajib |
-| `FOREGROUND_SERVICE` | Memainkan suara peringatan saat pelanggaran | Wajib |
-| `FOREGROUND_SERVICE_MEDIA_PLAYBACK` | Subtipe izin untuk alarm pelanggaran | Wajib |
+INTERNET (wajib)
+Alasan: memuat halaman ujian dari server sekolah.
+
+CAMERA (opsional)
+Alasan: memindai QR Code alamat ujian. Izin ini bisa ditolak, dan URL dapat dimasukkan manual.
+
+VIBRATE (opsional)
+Alasan: memberi umpan balik fisik saat pelanggaran terdeteksi.
+
+ACCESS_NETWORK_STATE (wajib)
+Alasan: menampilkan status jaringan (WiFi, data seluler, atau offline).
+
+CHANGE_NETWORK_STATE (wajib)
+Alasan: memantau perubahan koneksi selama ujian.
+
+FOREGROUND_SERVICE (wajib)
+Alasan: memainkan suara peringatan saat pelanggaran terdeteksi.
+
+FOREGROUND_SERVICE_MEDIA_PLAYBACK (wajib)
+Alasan: subtipe izin untuk alarm pelanggaran.
 
 **Izin yang TIDAK diminta:**
 
